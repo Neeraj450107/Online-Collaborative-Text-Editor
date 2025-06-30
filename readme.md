@@ -87,11 +87,6 @@ We have designed and implemented an online real-time collaborative text editor. 
 ![](/Images/ShareWithOthers.PNG)
 #### Collaborative Editing
 ![](/Images/OtherUserView.png)
-#### Realtime Viewing For Active Users
-![](/Images/ViewActiveUsers.PNG)
-## Demo
-
-https://github.com/SalahAbotaleb/Online-Collaborative-Text-Editor/assets/95881664/0874a228-a355-4fb2-9463-f151780375a0
 
 ## Algorithm
 The general idea of the algorithm is very similar to a doubly linked list. Each node contains:
@@ -115,12 +110,4 @@ We use the username as a tiebreaker. Lexicographically higher numbers mean highe
 - For selecting multiple elements then bolding or italicizing, the loop goes through all the IDs and sets the `isBold` or `isItalic` or both.
 - Conflicts are resolved using CRDT data structure.
 
-## Contributors
-* [Omar Elzahar](https://github.com/omarelzahar02)
-* [Salah Abotaleb](https://github.com/SalahAbotaleb)
-* [Hussien Elhawary](https://github.com/Hussein-Elhawary)
-* [Moaaz Tarek](https://github.com/moa234)
 
-## References
-- [Course materials from CMPS211 Advanced Programming Techniques, Computer Engineering Cairo University](./Project_Description.pdf)
-- [Conflict-free Replicated Data Type Research Paper](./CRDT%20Paper%20Research.pdf)
